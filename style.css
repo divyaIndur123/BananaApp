@@ -1,64 +1,62 @@
-@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet");
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap"rel="stylesheet");
 
-:root{
-    --primary:#F2C94C;
+:root {
+  --primary: #f2c94c;
 }
 
-*{
-    box-sizing: border-box;
-    margin: 0;
-    font-family: 'Indie Flower', cursive;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Indie Flower", cursive;
 }
 
-.filler{
-    background-color: var(--primary);
-    text-align: center;
-    padding: 1rem;
+.filler {
+  background-color: var(--primary);
+  text-align: center;
+  padding: 1rem;
 }
 
-.nav-header h1{
-    margin-block-start: 0em;
-    margin-block-end: 0em;
+.nav-header h1 {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
 }
 
-div.nav-header{
-    font-size: 2rem;
+div.nav-header {
+  font-size: 2rem;
 }
 
-.container{
-    padding: 1rem;
-    max-width: 600px;
-    margin: auto;
+.container {
+  padding: 1rem;
+  max-width: 600px;
+  margin: auto;
 }
 
-.content-area{
-    width: 100%;
-    min-height: 18vh;
-    padding: 1rem;
-    margin: 0.5rem 0rem;
+.content-area {
+  width: 100%;
+  min-height: 18vh;
+  padding: 1rem;
+  margin: 0.5rem 0rem;
 }
 
-textarea{
-
-    font-size: large;
+textarea {
+  font-size: large;
 }
 
- .button-primary{
-     padding: 1rem;
-     margin: 5px;
-     background-color: var(--primary);
-     font-size: medium;
-     font-weight: 600;
-     border:none;
-     margin: 0.5rem 0rem;     
- }
+.button-primary {
+  padding: 1rem;
+  margin: 5px;
+  background-color: var(--primary);
+  font-size: medium;
+  font-weight: 600;
+  border: none;
+  margin: 0.5rem 0rem;
+}
 
-.main-output{
-    display: block;
-    border: 1px solid grey;
+.main-output {
+  display: block;
+  border: 1px solid grey;
 }
 
 .main-outputheader {
-    margin-top: 0.5rem;
+  margin-top: 0.5rem;
 }
-
